@@ -1,0 +1,72 @@
+:root {
+  --background: #007bff;
+  --color: #fcfcfc;
+}
+body{
+	background-color: #fcfcfc ;
+	color: #2e3d44;
+}
+.btn{
+	background-color: #2e3d44;
+	color: #fcfcfc;
+}
+
+.btn:hover {
+	background-color: #fcfcfc;
+	border: 1px solid #2e3d44;
+}
+.form-control:focus {  
+  box-shadow: none;
+  border: 1px solid  #2e3d44;
+}
+
+.gg a {
+	background-color: #DB4437;
+	border-radius: 5px;
+	color: white;
+	width: 100%;
+	border: 1px solid #DB4437;
+	padding: 5px 20px 5px 20px;
+}
+
+.gg a:hover{
+	background-color: white;
+	color: #DB4437;
+	border: 1px solid #DB4437;
+	width: 100%;
+	padding: 5px 20px 5px 20px;
+}
+
+.fb a {
+	background-color: #4267B2;
+	color: white;
+	width: 100%;
+	border: 1px solid #4267B2;
+	border-radius: 5px;
+	padding: 5px 20px 5px 20px;
+}
+
+.fb a:hover{
+	background-color: white;
+	color: #4267B2;
+	border: 1px solid #4267B2;
+	width: 100%;
+	padding: 5px 20px 5px 20px;
+}
+
+.tw a {
+	background-color: #1DA1F2;
+	border-radius: 5px;
+	color: white;
+	width: 100%;
+	border: 1px solid #1DA1F2;
+	padding: 5px 20px 5px 20px;
+}
+
+.tw a:hover{
+	background-color: white;
+	color: #1DA1F2;
+	border: 1px solid #1DA1F2;
+	width: 100%;
+	padding: 5px 20px 5px 20px;
+}

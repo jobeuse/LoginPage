@@ -1,0 +1,28 @@
+ a{
+        font-size: 20px;
+        color: gray;
+    }
+    li {
+        list-style-type:none;
+    }
+    .about{
+        position: relative;
+
+        /* &:hover{
+            .AboutDrop{
+                display: block;
+            }
+        } */
+    }
+    
+    .AboutDrop{
+        position: absolute;
+        right: 0;
+        top: 95px;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        display: none;
+    }
+
+    body{
+        background: red;
+    }
